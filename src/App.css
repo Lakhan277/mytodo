@@ -1,0 +1,59 @@
+
+body{
+  margin:0;
+  background: linear-gradient(20deg,#44c8d1 10%,#2670d7 50%);
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+
+/* Cool minty blue */
+background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+
+/* Purple to blue */
+background: linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%);
+
+}
+.app-container{
+  text-align:center;
+  margin-top: 60px;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 30px;
+  
+  
+}
+.input{
+  padding:10px;
+  width: 260px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.add-button{
+  padding:10px 20px;
+  font-size: 16px;
+  color:white;
+  background-color: #051834;
+  border:none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+.add-button:hover{
+  background-color: #0a58ca;
+}
+.Todo-list{
+  margin-top: 30px;
+  list-style-type: none;
+  padding:0;
+}
+.Todo-item{
+  background-color: #f5f5f5;
+  padding:10px 15px;
+  margin:8px auto;
+  width: 300px;
+  border-radius: 6px;
+  font-size:18px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
