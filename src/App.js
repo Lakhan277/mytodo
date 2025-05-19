@@ -24,7 +24,7 @@ return(
   <div className='app-container'>
     <h1>My todo App</h1>
     <input type='text' value={Title} onChange={handleChange} placeholder='enter the task' className='input'></input>
-    <button onClick={handleAdd} className='add-handle'> Add</button>
+    <button onClick={handleAdd} className='add-handle'> Add </button>
     <ul className='Todo-list'>
       {Todo.map((item,index)=>(
         <li key={index} className='Todo-item'>
